@@ -159,6 +159,7 @@ form input[type="submit"]:hover{
     color: #555;
 }
 
+
 /* ===== Table Styling ===== */
 table{
     width: 85%;
@@ -201,4 +202,13 @@ table tr:hover{
 
 .logout-container a:hover{
     color: #555;
+}
+
+/* Alternate Row Colors */
+table tbody tr:nth-child(even){
+    background: #b38181;
+}
+
+table tbody tr:nth-child(odd){
+    background: #f6f7f0;
 }
