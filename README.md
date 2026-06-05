@@ -79,33 +79,17 @@ Student-Management-System/
 
 ## Screenshots
 
-### Home Page
+![Screenshot 2](asserts/screenshots/Screenshot%20(2).png)
 
-![Home Page](asserts/screenshots/Screenshot%20(1).png)
+![Screenshot 3](asserts/screenshots/Screenshot%20(3).png)
 
-### Registration Form
+![Screenshot 4](asserts/screenshots/Screenshot%20(4).png)
 
-![Registration Form](asserts/screenshots/Screenshot%20(2).png)
+![Screenshot 5](asserts/screenshots/Screenshot%20(5).png)
 
-### Dashboard
+![Screenshot 6](asserts/screenshots/Screenshot%20(6).png)
 
-![Dashboard](asserts/screenshots/Screenshot%20(3).png)
-
-### Student Profile
-
-![Student Profile](asserts/screenshots/Screenshot%20(4).png)
-
-### Contact Page
-
-![Contact Page](asserts/screenshots/Screenshot%20(5).png)
-
-### Mobile View
-
-![Mobile View](asserts/screenshots/Screenshot%20(6).png)
-
-### Additional View
-
-![Additional View](asserts/screenshots/Screenshot%20(7).png)
+![Screenshot 7](asserts/screenshots/Screenshot%20(7).png)
 
 ## How to Run
 
