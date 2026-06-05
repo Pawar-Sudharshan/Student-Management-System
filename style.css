@@ -1,0 +1,27 @@
+/* College Name */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.college-title{
+    /* font-size: 1.8rem; */
+    /* font-weight: 800; */
+    color: #0d47a1;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+/* Tagline */
+.college-tagline{
+    font-size: 0.85rem;
+    color: #6c757d;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Accreditation Text */
+.college-subtitle{
+    font-size: 0.75rem;
+    color: #6c757d;
+    font-weight: 500;
+}
