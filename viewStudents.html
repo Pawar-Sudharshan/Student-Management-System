@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/userStyle.css">
 </head>
-<body>
-    <nav>
-        <a href="dashboard.html#dashboard">Dashboard </a>
-        <a href="addStudent.html#addStudent">Add Student</a>
-        <a href="viewStudents.html#viewStudents">View Students</a>
-        <a href="logout.html#logout">Logout</a>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+
+        <div class="container-fluid px-3">
+
+            <div class="d-flex align-items-center">
+
+                <a class="navbar-brand me-3" href="#">
+                    <img src="./asserts/logo.png" width="80" height="80" alt="CVR Logo">
+                </a>
+
+                <div>
+                    <h3 class="college-title mb-0">
+                        CVR COLLEGE OF ENGINEERING
+                    </h3>
+
+                    <div class="d-flex flex-column align-items-end">
+                        <small class="college-tagline">
+                            in Pursuit of Excellence
+                        </small>
+
+                        <small class="college-subtitle">
+                            (An Autonomous Institution | NAAC 'A' Grade)
+                        </small>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="dashboard.html">Dashboard</a>
+                    <a class="nav-link" href="addStudent.html">Add Student</a>
+                    <a class="nav-link active" href="viewStudents.html">View Students</a>
+                    <a class="nav-link" href="logout.html">Logout</a>
+                </div>
+
+            </div>
+
+        </div>
+
     </nav>
 
-    <div class="container view-students">
-        <h2>View Students</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>CGPA</th>
-                    <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody id="studentsTableBody">
-                <!-- Student rows will be dynamically added here -->
+    <main class="flex-grow-1">
+        <div class="container view-students my-5">
+            <h2 class="mb-4 text-center">View Students</h2>
+            <table class="table table-striped table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>CGPA</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="studentsTableBody">
+                    <!-- Student rows will be dynamically added here -->
                  <tr>
                     <td>1</td>
                     <td>Sudharshan</td>
@@ -74,8 +125,52 @@
                  </tr>
             </tbody>
         </table>
+        </div>
+    </main>
 
-    </div>
-    
+    <!-- Footer -->
+    <footer class="container-fluid mt-auto bg-light">
+        <div class="container">
+            <div class="row align-items-center py-3 border-top">
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center justify-content-md-start mb-3 mb-md-0">
+                    <a href="/" class="me-2 text-decoration-none d-flex align-items-center">
+                        <img src="./asserts/logo.png" width="40" alt="Logo">
+                    </a>
+                    <span class="text-body-secondary mb-0">
+                        © 2025 CVR College
+                    </span>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+                    <ul class="nav list-unstyled d-flex mb-0">
+                        <li class="ms-3">
+                            <a class="text-body-secondary" href="#">
+                                <i class="bi bi-instagram fs-5"></i>
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-body-secondary" href="#">
+                                <i class="bi bi-linkedin fs-5"></i>
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-body-secondary" href="#">
+                                <i class="bi bi-facebook fs-5"></i>
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-body-secondary" href="#">
+                                <i class="bi bi-threads-fill fs-5"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
